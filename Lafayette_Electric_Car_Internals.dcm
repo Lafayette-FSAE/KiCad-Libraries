@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC6804-2
+D Battery Monitoring Circuit
+K TSV Battery LT
+F https://www.analog.com/media/en/technical-documentation/data-sheets/680412fc.pdf
+$ENDCMP
+#
+#End Doc Library
