@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LT8584
+F https://www.analog.com/media/en/technical-documentation/data-sheets/8584fb.pdf
+$ENDCMP
+#
 $CMP LTC6804-2
 D Battery Monitoring Circuit
 K TSV Battery LT AMS BMS CellMan
