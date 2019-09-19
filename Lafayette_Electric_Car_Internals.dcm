@@ -6,6 +6,12 @@ K ADC TSV CellMan AMS I
 F http://www.ti.com/lit/ds/symlink/adc128d818.pdf
 $ENDCMP
 #
+$CMP HCNR200
+D Analogue Opto-Isolator
+K OptoIsolator TSV AMS CellMan
+F http://www.mouser.com/ds/2/678/V02-0886EN_DS_HCNR200_2014-01-071-908546.pdf
+$ENDCMP
+#
 $CMP LT8584
 F https://www.analog.com/media/en/technical-documentation/data-sheets/8584fb.pdf
 $ENDCMP
