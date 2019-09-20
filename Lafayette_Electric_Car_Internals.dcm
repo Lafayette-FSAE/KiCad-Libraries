@@ -26,4 +26,9 @@ $CMP MCP1253-33X50I_MS
 F MCP1253-33X50I/MS-ND
 $ENDCMP
 #
+$CMP MCP9808
+D I2C Temperature Sensor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/25095A.pdf
+$ENDCMP
+#
 #End Doc Library
