@@ -38,4 +38,10 @@ K Temp Temperature I2C CellMan TSV AMS
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25095A.pdf
 $ENDCMP
 #
+$CMP PCA9536
+D I2C IO Expander
+K TSV CellMan AMS I2C IO
+F https://www.mouser.com/datasheet/2/302/PCA9536-1127758.pdf
+$ENDCMP
+#
 #End Doc Library
