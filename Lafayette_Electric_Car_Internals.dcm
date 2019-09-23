@@ -32,6 +32,12 @@ $CMP MCP1253-33X50I_MS
 F MCP1253-33X50I/MS-ND
 $ENDCMP
 #
+$CMP MCP23008
+D I2C IO Expander
+K TSV CellMan AMS
+F https://www.mouser.com/datasheet/2/268/21919b-65915.pdf
+$ENDCMP
+#
 $CMP MCP9808
 D I2C Temperature Sensor
 K Temp Temperature I2C CellMan TSV AMS
