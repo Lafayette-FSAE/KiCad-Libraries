@@ -50,4 +50,10 @@ K TSV CellMan AMS I2C IO
 F https://www.mouser.com/datasheet/2/302/PCA9536-1127758.pdf
 $ENDCMP
 #
+$CMP VOM617A
+D Non Linear Opto-Isolator
+K CellMan TSV AMS
+F https://www.mouser.com/datasheet/2/427/vom617a-67135.pdf
+$ENDCMP
+#
 #End Doc Library
