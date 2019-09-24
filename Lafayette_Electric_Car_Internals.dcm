@@ -12,6 +12,11 @@ K ADC TSV CellMan AMS I
 F http://www.ti.com/lit/ds/symlink/adc128d818.pdf
 $ENDCMP
 #
+$CMP ESP8266NodeMCUDevKit
+D Nodemcu dev kit for an ESP8266 module
+F https://github.com/nodemcu/nodemcu-devkit-v1.0
+$ENDCMP
+#
 $CMP HCNR200
 D Analog Opto-Isolator
 K OptoIsolator TSV AMS CellMan
