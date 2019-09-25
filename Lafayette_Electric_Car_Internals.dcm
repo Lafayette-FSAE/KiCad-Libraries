@@ -59,6 +59,12 @@ K Temp Temperature I2C CellMan TSV AMS
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25095A.pdf
 $ENDCMP
 #
+$CMP OPA347
+D Low Power OpAmp
+K CellMan TSV AMS OpAmp Amplifier
+F http://www.ti.com/lit/ds/symlink/opa2347.pdf
+$ENDCMP
+#
 $CMP PCA9536
 D I2C IO Expander
 K TSV CellMan AMS I2C IO
