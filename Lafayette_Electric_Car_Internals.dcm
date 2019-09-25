@@ -29,6 +29,10 @@ K OptoIsolator TSV AMS CellMan
 F http://www.mouser.com/ds/2/678/V02-0886EN_DS_HCNR200_2014-01-071-908546.pdf
 $ENDCMP
 #
+$CMP LT3990-5
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3990fa.pdf
+$ENDCMP
+#
 $CMP LT8584
 F https://www.analog.com/media/en/technical-documentation/data-sheets/8584fb.pdf
 $ENDCMP
@@ -61,8 +65,8 @@ K TSV CellMan AMS I2C IO
 F https://www.mouser.com/datasheet/2/302/PCA9536-1127758.pdf
 $ENDCMP
 #
-$CMP T9AS1D12-5
-D 30A 5V Coil Relay
+$CMP T9AS1D12
+D 30A Contact NO Relay
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308242_T9A&DocType=DS&DocLang=English
 $ENDCMP
 #
