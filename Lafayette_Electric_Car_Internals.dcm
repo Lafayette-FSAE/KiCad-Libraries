@@ -43,6 +43,10 @@ K TSV Battery LT AMS BMS CellMan
 F https://www.analog.com/media/en/technical-documentation/data-sheets/680412fc.pdf
 $ENDCMP
 #
+$CMP LTC6820
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf
+$ENDCMP
+#
 $CMP MCP1253-33X50I_MS
 F MCP1253-33X50I/MS-ND
 $ENDCMP
