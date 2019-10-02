@@ -44,6 +44,7 @@ F https://www.analog.com/media/en/technical-documentation/data-sheets/680412fc.p
 $ENDCMP
 #
 $CMP LTC6820
+D isoSPI Interface
 F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf
 $ENDCMP
 #
@@ -73,6 +74,11 @@ $CMP PCA9536
 D I2C IO Expander
 K TSV CellMan AMS I2C IO
 F https://www.mouser.com/datasheet/2/302/PCA9536-1127758.pdf
+$ENDCMP
+#
+$CMP SI8605AC
+D Bidirectional I2C and Digital Isolator
+F https://www.silabs.com/documents/public/data-sheets/Si860x.pdf
 $ENDCMP
 #
 $CMP T9AS1D12
