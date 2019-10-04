@@ -18,6 +18,12 @@ K ADC TSV CellMan AMS I
 F http://www.ti.com/lit/ds/symlink/adc128d818.pdf
 $ENDCMP
 #
+$CMP BSS138W
+D Logic Level N-Channel MOSFET
+K TSV AMS CellMan MOSFET NMOS 
+F https://www.mouser.com/datasheet/2/308/BSS138W-1305267.pdf
+$ENDCMP
+#
 $CMP ESP8266NodeMCUDevKit
 D Nodemcu dev kit for an ESP8266 module
 F https://github.com/nodemcu/nodemcu-devkit-v1.0
