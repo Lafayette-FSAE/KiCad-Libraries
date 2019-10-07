@@ -20,7 +20,7 @@ $ENDCMP
 #
 $CMP BSS138W
 D Logic Level N-Channel MOSFET
-K TSV AMS CellMan MOSFET NMOS 
+K TSV AMS CellMan MOSFET NMOS
 F https://www.mouser.com/datasheet/2/308/BSS138W-1305267.pdf
 $ENDCMP
 #
