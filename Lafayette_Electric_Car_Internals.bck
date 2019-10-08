@@ -6,6 +6,12 @@ K Current Sensor CellMan Isolated TSV AMS
 F https://www.mouser.com/datasheet/2/678/ACHS-712x-DS101_2018-02-28-1386725.pdf
 $ENDCMP
 #
+$CMP ACHS-7122
+D Isolated Current Sensor
+K Current Sensor CellMan Isolated TSV AMS
+F https://www.mouser.com/datasheet/2/678/ACHS-712x-DS101_2018-02-28-1386725.pdf
+$ENDCMP
+#
 $CMP ACHS-7123
 D Isolated Current Sensor
 K Current Sensor CellMan Isolated TSV AMS
@@ -16,6 +22,17 @@ $CMP ADC128D818
 D Analog to Digital Converter I2C enabled, 8 Channel
 K ADC TSV CellMan AMS I
 F http://www.ti.com/lit/ds/symlink/adc128d818.pdf
+$ENDCMP
+#
+$CMP ADM6320
+D Watchdog/Reset controller
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM6316_6318_6319_6320_6321_6322.pdf
+$ENDCMP
+#
+$CMP BSS138W
+D Logic Level N-Channel MOSFET
+K TSV AMS CellMan MOSFET NMOS
+F https://www.mouser.com/datasheet/2/308/BSS138W-1305267.pdf
 $ENDCMP
 #
 $CMP ESP8266NodeMCUDevKit
@@ -76,9 +93,24 @@ K TSV CellMan AMS I2C IO
 F https://www.mouser.com/datasheet/2/302/PCA9536-1127758.pdf
 $ENDCMP
 #
+$CMP SI8605AC
+D Bidirectional I2C and Digital Isolator
+F https://www.silabs.com/documents/public/data-sheets/Si860x.pdf
+$ENDCMP
+#
+$CMP STS8DN6LF6AG
+D Dual N-Channel Power MOSFET
+K MOS MOSFET Transistor TSV AMS CellMan Power NMOS
+F https://www.mouser.com/datasheet/2/389/sts8dn6lf6ag-1114209.pdf
+$ENDCMP
+#
 $CMP T9AS1D12
 D 30A Contact NO Relay
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308242_T9A&DocType=DS&DocLang=English
+$ENDCMP
+#
+$CMP V7805-500
+F https://www.cui.com/product/resource/v78-500.pdf
 $ENDCMP
 #
 $CMP VOM617A

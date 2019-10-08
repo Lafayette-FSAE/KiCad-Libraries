@@ -6,6 +6,12 @@ K Current Sensor CellMan Isolated TSV AMS
 F https://www.mouser.com/datasheet/2/678/ACHS-712x-DS101_2018-02-28-1386725.pdf
 $ENDCMP
 #
+$CMP ACHS-7122
+D Isolated Current Sensor
+K Current Sensor CellMan Isolated TSV AMS
+F https://www.mouser.com/datasheet/2/678/ACHS-712x-DS101_2018-02-28-1386725.pdf
+$ENDCMP
+#
 $CMP ACHS-7123
 D Isolated Current Sensor
 K Current Sensor CellMan Isolated TSV AMS
