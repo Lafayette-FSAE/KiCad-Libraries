@@ -18,6 +18,11 @@ K ADC TSV CellMan AMS I
 F http://www.ti.com/lit/ds/symlink/adc128d818.pdf
 $ENDCMP
 #
+$CMP ADM6320
+D Watchdog/Reset controller
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM6316_6318_6319_6320_6321_6322.pdf
+$ENDCMP
+#
 $CMP BSS138W
 D Logic Level N-Channel MOSFET
 K TSV AMS CellMan MOSFET NMOS
