@@ -1,0 +1,18 @@
+.title package
+
+* Combined 2 transistors into subcircuit representing the SO8 package
+
+.include ./STS8DN6LF6AG_V2.LIB
+
+.SUBCKT STS8DN6LF6AG_Package 1 2 3 4 5 6 7 8
+
+XQ1 8 2 1 STS8DN6LF6AG_V2
+XQ2 6 4 3 STS8DN6LF6AG_V2
+
+* Tie pin 8 and 7 together
+R1 8 7 0
+
+* Tie pin 6 and 5 together
+R1 6 5 0
+
+.ENDS STS8DN6LF6AG_Package
