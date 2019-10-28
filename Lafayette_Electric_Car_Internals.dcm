@@ -204,6 +204,10 @@ D Bidirectional I2C and Digital Isolator
 F https://www.silabs.com/documents/public/data-sheets/Si860x.pdf
 $ENDCMP
 #
+$CMP STM32F103DevBluePill
+D Blue Pill STM32 Development Kit
+$ENDCMP
+#
 $CMP STM8S003F3
 F https://www.mouser.com/datasheet/2/389/stm8s003f3-956285.pdf
 $ENDCMP
