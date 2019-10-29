@@ -58,6 +58,12 @@ K quad opamp
 F http://www.ti.com/lit/ds/symlink/lm2902-n.pdf
 $ENDCMP
 #
+$CMP LM2931
+D Linear Voltage Regulator 3.3V 100mA
+K CellMan TSV Power Voltage Regulator
+F https://www.mouser.com/datasheet/2/389/lm2931-974141.pdf
+$ENDCMP
+#
 $CMP LM324
 D Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14
 K quad opamp
