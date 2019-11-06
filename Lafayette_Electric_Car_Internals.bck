@@ -18,10 +18,9 @@ K Current Sensor CellMan Isolated TSV AMS
 F https://www.mouser.com/datasheet/2/678/ACHS-712x-DS101_2018-02-28-1386725.pdf
 $ENDCMP
 #
-$CMP ADA4807-4
-D Quad Rail-to-Rail Input/Output Amplifiers, TSSOP-14
-K quad opamp
-F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf
+$CMP AD8479
+D General Purpose Amplifier 1 Circuit Rail-to-Rail 8-SOIC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8479.PDF
 $ENDCMP
 #
 $CMP ADC128D818
@@ -52,6 +51,22 @@ K OptoIsolator TSV AMS CellMan
 F http://www.mouser.com/ds/2/678/V02-0886EN_DS_HCNR200_2014-01-071-908546.pdf
 $ENDCMP
 #
+$CMP IDC-Connector
+D CONN HEADER VERT 6POS 2.54MM
+K CellMan AMS Connector IDC
+F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/75869.pdf
+$ENDCMP
+#
+$CMP L7833CD-TR
+D Linear Voltage Regulator 3.3V 100mA
+F https://www.mouser.com/datasheet/2/389/l78l-974102.pdf
+$ENDCMP
+#
+$CMP L78L05CD13TR
+D Linear Voltage Regulator 5V 100mA
+F https://www.mouser.com/datasheet/2/389/l78l-974102.pdf
+$ENDCMP
+#
 $CMP LM2902
 D Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14
 K quad opamp
@@ -62,30 +77,6 @@ $CMP LM2931
 D Linear Voltage Regulator 3.3V 100mA
 K CellMan TSV Power Voltage Regulator
 F https://www.mouser.com/datasheet/2/389/lm2931-974141.pdf
-$ENDCMP
-#
-$CMP LM324
-D Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14
-K quad opamp
-F http://www.ti.com/lit/ds/symlink/lm2902-n.pdf
-$ENDCMP
-#
-$CMP LM324A
-D Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14
-K quad opamp
-F http://www.ti.com/lit/ds/symlink/lm2902-n.pdf
-$ENDCMP
-#
-$CMP LMC6484
-D Quad CMOS Rail-to-Rail Input and Output Operational Amplifier, DIP-14/SOIC-14
-K quad opamp
-F http://www.ti.com/lit/ds/symlink/lmc6484.pdf
-$ENDCMP
-#
-$CMP LMV324
-D Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14
-K quad opamp
-F http://www.ti.com/lit/ds/symlink/lmv324.pdf
 $ENDCMP
 #
 $CMP LT3990-5
@@ -107,24 +98,6 @@ D isoSPI Interface
 F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf
 $ENDCMP
 #
-$CMP MC33079
-D Low Noise, Quad Operational Amplifiers, DIP-14/SOIC-14
-K quad opamp
-F https://www.onsemi.com/pub/Collateral/MC33078-D.PDF
-$ENDCMP
-#
-$CMP MC33174
-D Quad Single Supply 3.0V to 44V, Low Power Operational Amplifiers, DIP-14/SOIC-14/TSSOP-14
-K quad opamp
-F http://www.onsemi.com/pub/Collateral/MC33171-D.PDF
-$ENDCMP
-#
-$CMP MC33179
-D Quad Low Power, Low Noise Operational Amplifiers, DIP-14/SOIC-14/SSOP-14
-K quad opamp
-F https://www.onsemi.com/pub/Collateral/MC33178-D.PDF
-$ENDCMP
-#
 $CMP MCP1253-33X50I_MS
 F MCP1253-33X50I/MS-ND
 $ENDCMP
@@ -136,21 +109,7 @@ F https://www.mouser.com/datasheet/2/268/21919b-65915.pdf
 $ENDCMP
 #
 $CMP MCP6004
-D Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14
-K quad opamp
-F https://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
-$ENDCMP
-#
-$CMP MCP604
-D Quad 2.7V to 6.0V Single Supply CMOS Op Amps, DIP-14/SOIC-14/TSSOP-14
-K quad opamp
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf
-$ENDCMP
-#
-$CMP MCP6L94
-D 10 MHz, 850 µA Op Amps, SOIC-14/TSSOP-14
-K quad opamp
-F http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
 $ENDCMP
 #
 $CMP MCP9808
@@ -159,40 +118,16 @@ K Temp Temperature I2C CellMan TSV AMS
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25095A.pdf
 $ENDCMP
 #
-$CMP OPA1604
-D Quad SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SOIC-14/TSSOP-14
-K quad opamp
-F http://www.ti.com/lit/ds/symlink/opa1604.pdf
-$ENDCMP
-#
-$CMP OPA1679
-D Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14
-K quad opamp
-F http://www.ti.com/lit/ds/symlink/opa1678.pdf
+$CMP NTCS0603
+D THERMISTOR NTC 2KOHM 3420K 0603
+K CellMan TempSensor Temperature TSV NTC Thermistor
+F http://www.vishay.com/docs/29056/ntcs0603e3t.pdf
 $ENDCMP
 #
 $CMP OPA347
 D Low Power OpAmp
 K CellMan TSV AMS OpAmp Amplifier
 F http://www.ti.com/lit/ds/symlink/opa2347.pdf
-$ENDCMP
-#
-$CMP OPA4134
-D Quad SoundPlus High Performance Audio Operational Amplifiers, SOIC-14
-K quad opamp
-F http://www.ti.com/lit/ds/symlink/opa134.pdf
-$ENDCMP
-#
-$CMP OPA4340UA
-D Quad Single-Supply, Rail-to-Rail Operational Amplifier, MicroAmplifier Series, SOIC-14
-K quad opamp
-F http://www.ti.com/lit/ds/symlink/opa340.pdf
-$ENDCMP
-#
-$CMP OPA4376
-D Quad Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SC-70-5
-K quad opamp
-F http://www.ti.com/lit/ds/symlink/opa376.pdf
 $ENDCMP
 #
 $CMP PCA9536
@@ -210,11 +145,18 @@ D Bidirectional I2C and Digital Isolator
 F https://www.silabs.com/documents/public/data-sheets/Si860x.pdf
 $ENDCMP
 #
+$CMP SMT-Standoff
+D Round Standoff Threaded #4-40 Steel 0.250" (6.35mm) 1/4"
+F http://www.keyelco.com/product-pdf.cfm?p=14255
+$ENDCMP
+#
 $CMP STM32F103DevBluePill
 D Blue Pill STM32 Development Kit
 $ENDCMP
 #
 $CMP STM8S003F3
+D IC MCU 8BIT 8KB FLASH 20TSSOP
+K CellMan
 F https://www.mouser.com/datasheet/2/389/stm8s003f3-956285.pdf
 $ENDCMP
 #
@@ -225,7 +167,7 @@ F https://www.mouser.com/datasheet/2/389/sts8dn6lf6ag-1114209.pdf
 $ENDCMP
 #
 $CMP SW_DIP_x04
-D Dip Switch x04
+D SWITCH SLIDE DIP SPST 25MA 24V
 F https://omronfs.omron.com/en_US/ecb/products/pdf/en-a6h.pdf
 $ENDCMP
 #
@@ -237,48 +179,6 @@ $ENDCMP
 $CMP T9AS1D12
 D 30A Contact NO Relay
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308242_T9A&DocType=DS&DocLang=English
-$ENDCMP
-#
-$CMP TL064
-D Quad Low-Power JFET-Input Operational Amplifiers, DIP-14/SOIC-14/SSOP-14
-K quad opamp
-F http://www.ti.com/lit/ds/symlink/tl061.pdf
-$ENDCMP
-#
-$CMP TL074
-D Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14
-K quad opamp
-F http://www.ti.com/lit/ds/symlink/tl071.pdf
-$ENDCMP
-#
-$CMP TL084
-D Quad JFET-Input Operational Amplifiers, DIP-14/SOIC-14/SSOP-14
-K quad opamp
-F http://www.ti.com/lit/ds/symlink/tl081.pdf
-$ENDCMP
-#
-$CMP TLC274
-D Quad LinCMOS Precision Quad Operational Amplifiers, DIP-14/SOIC-14/SSOP-14
-K quad opamp
-F http://www.ti.com/lit/ds/symlink/tlc274.pdf
-$ENDCMP
-#
-$CMP TLC279
-D Quad LinCMOS Precision Quad Operational Amplifiers, DIP-14/SOIC-14/SSOP-14
-K quad opamp
-F http://www.ti.com/lit/ds/symlink/tlc274.pdf
-$ENDCMP
-#
-$CMP TSV914
-D Quad rail-to-rail input/output 8 MHz operational amplifiers, SOIC-14/TSSOP-14
-K quad opamp
-F www.st.com/resource/en/datasheet/tsv911.pdf
-$ENDCMP
-#
-$CMP TSV994
-D Quad Rail-to-rail, 20 MHz GBP, operational amplifiers, SOIC-14/TSSOP-14
-K quad opamp
-F https://www.st.com/resource/en/datasheet/tsv994.pdf
 $ENDCMP
 #
 $CMP V7805-500

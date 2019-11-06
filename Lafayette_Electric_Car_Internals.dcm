@@ -58,6 +58,12 @@ F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/75869.pdf
 $ENDCMP
 #
 $CMP L7833CD-TR
+D Linear Voltage Regulator 3.3V 100mA
+F https://www.mouser.com/datasheet/2/389/l78l-974102.pdf
+$ENDCMP
+#
+$CMP L78L05CD13TR
+D Linear Voltage Regulator 5V 100mA
 F https://www.mouser.com/datasheet/2/389/l78l-974102.pdf
 $ENDCMP
 #
@@ -110,6 +116,12 @@ $CMP MCP9808
 D I2C Temperature Sensor
 K Temp Temperature I2C CellMan TSV AMS
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25095A.pdf
+$ENDCMP
+#
+$CMP NTCS0603
+D THERMISTOR NTC 2KOHM 3420K 0603
+K CellMan TempSensor Temperature TSV NTC Thermistor
+F http://www.vishay.com/docs/29056/ntcs0603e3t.pdf
 $ENDCMP
 #
 $CMP OPA347
