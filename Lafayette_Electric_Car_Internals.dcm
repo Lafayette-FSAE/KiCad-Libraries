@@ -18,6 +18,11 @@ K Current Sensor CellMan Isolated TSV AMS
 F https://www.mouser.com/datasheet/2/678/ACHS-712x-DS101_2018-02-28-1386725.pdf
 $ENDCMP
 #
+$CMP AD8479
+D General Purpose Amplifier 1 Circuit Rail-to-Rail 8-SOIC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8479.PDF
+$ENDCMP
+#
 $CMP ADC128D818
 D Analog to Digital Converter I2C enabled, 8 Channel
 K ADC TSV CellMan AMS
@@ -126,6 +131,11 @@ $ENDCMP
 $CMP SI8605AC
 D Bidirectional I2C and Digital Isolator
 F https://www.silabs.com/documents/public/data-sheets/Si860x.pdf
+$ENDCMP
+#
+$CMP SMT-Standoff
+D Round Standoff Threaded #4-40 Steel 0.250" (6.35mm) 1/4"
+F http://www.keyelco.com/product-pdf.cfm?p=14255
 $ENDCMP
 #
 $CMP STM32F103DevBluePill
