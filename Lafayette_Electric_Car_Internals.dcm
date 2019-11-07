@@ -98,6 +98,12 @@ D isoSPI Interface
 F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf
 $ENDCMP
 #
+$CMP LittelfuseHolder
+D FUSE BOARD MNT 500MA 125VAC/VDC
+K Fuse SMD CellMan TSV
+F https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf
+$ENDCMP
+#
 $CMP MCP1253-33X50I_MS
 F MCP1253-33X50I/MS-ND
 $ENDCMP
