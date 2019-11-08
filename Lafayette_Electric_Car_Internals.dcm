@@ -142,6 +142,10 @@ K TSV CellMan AMS I2C IO
 F https://www.mouser.com/datasheet/2/302/PCA9536-1127758.pdf
 $ENDCMP
 #
+$CMP PDQE10
+D Isolated DC-DC Converter Module, 18-75Vin, 24Vout, 416mA
+$ENDCMP
+#
 $CMP PIC16LF1826
 F https://www.mouser.com/datasheet/2/268/41391D-277976.pdf#%5B%7B%22num%22%3A644%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C80%2C723%2Cnull%5D
 $ENDCMP
