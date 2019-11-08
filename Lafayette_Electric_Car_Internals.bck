@@ -98,6 +98,12 @@ D isoSPI Interface
 F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6820.pdf
 $ENDCMP
 #
+$CMP LittelfuseHolder
+D FUSE BOARD MNT 500MA 125VAC/VDC
+K Fuse SMD CellMan TSV
+F https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf
+$ENDCMP
+#
 $CMP MCP1253-33X50I_MS
 F MCP1253-33X50I/MS-ND
 $ENDCMP
@@ -134,6 +140,20 @@ $CMP PCA9536
 D I2C IO Expander
 K TSV CellMan AMS I2C IO
 F https://www.mouser.com/datasheet/2/302/PCA9536-1127758.pdf
+$ENDCMP
+#
+$CMP PDQE10
+D Isolated DC-DC Converter Module
+$ENDCMP
+#
+$CMP PDQE10-Q24-S9-D
+D Isolated DC-DC Converter Module, 9-36Vin, 9Vout, 1111mA
+F https://www.cui.com/product/resource/pdqe10-d.pdf
+$ENDCMP
+#
+$CMP PDQE10-Q48-S24-D
+D Isolated DC-DC Converter Module, 18-75Vin, 24Vout, 416mA
+F https://www.cui.com/product/resource/pdqe10-d.pdf
 $ENDCMP
 #
 $CMP PIC16LF1826
@@ -179,6 +199,11 @@ $ENDCMP
 $CMP T9AS1D12
 D 30A Contact NO Relay
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308242_T9A&DocType=DS&DocLang=English
+$ENDCMP
+#
+$CMP TEC2-4815WI
+D Isolated 2W DC-DC Converter, 18-75Vin, 24Vout, 83mA
+F https://www.tracopower.com/products/tec2wi.pdf
 $ENDCMP
 #
 $CMP V7805-500
