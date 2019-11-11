@@ -142,10 +142,6 @@ K TSV CellMan AMS I2C IO
 F https://www.mouser.com/datasheet/2/302/PCA9536-1127758.pdf
 $ENDCMP
 #
-$CMP PDQE10
-D Isolated DC-DC Converter Module
-$ENDCMP
-#
 $CMP PDQE10-Q24-S9-D
 D Isolated DC-DC Converter Module, 9-36Vin, 9Vout, 1111mA
 F https://www.cui.com/product/resource/pdqe10-d.pdf
