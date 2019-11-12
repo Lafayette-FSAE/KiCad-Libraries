@@ -67,6 +67,17 @@ D Linear Voltage Regulator 5V 100mA
 F https://www.mouser.com/datasheet/2/389/l78l-974102.pdf
 $ENDCMP
 #
+$CMP LED_Green
+D Red  Green Indication - Discrete 2V 0805 (2012 Metric)
+K LED CellMan
+F https://vcclite.com/wp-content/uploads/wpallimport/files/files/CMD1721Seriesver3.pdf
+$ENDCMP
+#
+$CMP LED_Red
+D Red  LED Indication - Discrete 2V 0805 (2012 Metric)
+F https://vcclite.com/wp-content/uploads/wpallimport/files/files/CMD1721Seriesver3.pdf
+$ENDCMP
+#
 $CMP LM2902
 D Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14
 K quad opamp
@@ -185,11 +196,6 @@ $ENDCMP
 $CMP T9AS1D12
 D 30A Contact NO Relay
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308242_T9A&DocType=DS&DocLang=English
-$ENDCMP
-#
-$CMP TEC2-4815WI
-D Isolated 2W DC-DC Converter, 18-75Vin, 24Vout, 83mA
-F https://www.tracopower.com/products/tec2wi.pdf
 $ENDCMP
 #
 $CMP V7805-500
