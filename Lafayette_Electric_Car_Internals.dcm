@@ -62,6 +62,11 @@ K CellMan AMS Connector IDC
 F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/75869.pdf
 $ENDCMP
 #
+$CMP INA592
+D High-Precision, Wide-Bandwidth Difference Amplifier
+F http://www.ti.com/lit/ds/symlink/ina592.pdf
+$ENDCMP
+#
 $CMP L7833CD-TR
 D Linear Voltage Regulator 3.3V 100mA
 F https://www.mouser.com/datasheet/2/389/l78l-974102.pdf
@@ -101,6 +106,11 @@ $ENDCMP
 #
 $CMP LT8584
 F https://www.analog.com/media/en/technical-documentation/data-sheets/8584fb.pdf
+$ENDCMP
+#
+$CMP LTC4151
+D High Voltage I2C Current and Voltage Monitor
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4151ff.pdf
 $ENDCMP
 #
 $CMP LTC6804-2
@@ -156,6 +166,16 @@ $CMP PCA9536
 D I2C IO Expander
 K TSV CellMan AMS I2C IO
 F https://www.mouser.com/datasheet/2/302/PCA9536-1127758.pdf
+$ENDCMP
+#
+$CMP PDQE10-Q24-S9-D
+D Isolated DC-DC Converter Module, 9-36Vin, 9Vout, 1111mA
+F https://www.cui.com/product/resource/pdqe10-d.pdf
+$ENDCMP
+#
+$CMP PDQE10-Q48-S24-D
+D Isolated DC-DC Converter Module, 18-75Vin, 24Vout, 416mA
+F https://www.cui.com/product/resource/pdqe10-d.pdf
 $ENDCMP
 #
 $CMP PIC16LF1826
