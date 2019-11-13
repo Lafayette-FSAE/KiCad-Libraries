@@ -51,6 +51,11 @@ K OptoIsolator TSV AMS CellMan
 F http://www.mouser.com/ds/2/678/V02-0886EN_DS_HCNR200_2014-01-071-908546.pdf
 $ENDCMP
 #
+$CMP IDC-16pin
+D Connector Header Through Hole 16 position 0.100" (2.54mm)
+F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/75869.pdf
+$ENDCMP
+#
 $CMP IDC-Connector
 D CONN HEADER VERT 6POS 2.54MM
 K CellMan AMS Connector IDC
@@ -155,6 +160,11 @@ $ENDCMP
 #
 $CMP PIC16LF1826
 F https://www.mouser.com/datasheet/2/268/41391D-277976.pdf#%5B%7B%22num%22%3A644%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C80%2C723%2Cnull%5D
+$ENDCMP
+#
+$CMP PushButton
+D Tactile Switch SPST-NO Top Actuated Surface Mount
+F https://media.digikey.com/pdf/Data%20Sheets/RAFI%20PDF's/Racon_PCB_Tactile_Switches_Cat.pdf
 $ENDCMP
 #
 $CMP SI8605AC
