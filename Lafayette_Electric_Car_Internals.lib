@@ -1915,4 +1915,21 @@ X ~ 4 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# standoff_smt_M2_3.5mm
+#
+DEF standoff_smt_M2_3.5mm H 0 40 Y Y 1 F N
+F0 "H" 0 0 50 H V C CNN
+F1 "standoff_smt_M2_3.5mm" 0 0 50 H V C CNN
+F2 "Lafayette_Electric_Car_Footprints:standoff_smt_m2_3.5mm" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Digikey" 0 0 50 H I C CNN "Vendor"
+F5 "732-7088-2-ND" 0 0 50 H I C CNN "Vendor Part"
+F6 "Würth Elektronik" 0 0 50 H I C CNN "Manufacturer"
+F7 "9774035243R" 0 0 50 H I C CNN "Manufacturer Part"
+DRAW
+C 0 -150 50 1 1 50 N
+X ~ 1 0 -300 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library

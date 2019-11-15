@@ -244,4 +244,10 @@ K SCR thyristor
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/2d/c1/ab/c5/67/cd/4b/d4/CD00002274.pdf/files/CD00002274.pdf/jcr:content/translations/en.CD00002274.pdf
 $ENDCMP
 #
+$CMP standoff_smt_M2_3.5mm
+D Round Standoff Threaded M2x0.4 Steel 0.138" (3.50mm)
+K Standoff
+F https://media.digikey.com/pdf/Data%20Sheets/Wurth%20Electronics%20PDFs/WA-SMSx_Performance_Flyer.pdf
+$ENDCMP
+#
 #End Doc Library
