@@ -40,6 +40,12 @@ K TSV AMS CellMan MOSFET NMOS Transistor
 F https://www.mouser.com/datasheet/2/308/BSS138W-1305267.pdf
 $ENDCMP
 #
+$CMP E-ink_Connector
+D Connector Header Surface Mount, Right Angle 8 position 0.079" (2.00mm) (Connects to E-ink display)
+K Display PacMan Eink E-ink
+F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+$ENDCMP
+#
 $CMP ESP8266NodeMCUDevKit
 D Nodemcu dev kit for an ESP8266 module
 F https://github.com/nodemcu/nodemcu-devkit-v1.0
