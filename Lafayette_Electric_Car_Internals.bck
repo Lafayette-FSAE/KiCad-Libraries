@@ -51,10 +51,20 @@ K OptoIsolator TSV AMS CellMan
 F http://www.mouser.com/ds/2/678/V02-0886EN_DS_HCNR200_2014-01-071-908546.pdf
 $ENDCMP
 #
+$CMP IDC-16pin
+D Connector Header Through Hole 16 position 0.100" (2.54mm)
+F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/75869.pdf
+$ENDCMP
+#
 $CMP IDC-Connector
 D CONN HEADER VERT 6POS 2.54MM
 K CellMan AMS Connector IDC
 F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/75869.pdf
+$ENDCMP
+#
+$CMP INA592
+D High-Precision, Wide-Bandwidth Difference Amplifier
+F http://www.ti.com/lit/ds/symlink/ina592.pdf
 $ENDCMP
 #
 $CMP L7833CD-TR
@@ -96,6 +106,11 @@ $ENDCMP
 #
 $CMP LT8584
 F https://www.analog.com/media/en/technical-documentation/data-sheets/8584fb.pdf
+$ENDCMP
+#
+$CMP LTC4151
+D High Voltage I2C Current and Voltage Monitor
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4151ff.pdf
 $ENDCMP
 #
 $CMP LTC6804-2
@@ -167,6 +182,11 @@ $CMP PIC16LF1826
 F https://www.mouser.com/datasheet/2/268/41391D-277976.pdf#%5B%7B%22num%22%3A644%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C80%2C723%2Cnull%5D
 $ENDCMP
 #
+$CMP PushButton
+D Tactile Switch SPST-NO Top Actuated Surface Mount
+F https://media.digikey.com/pdf/Data%20Sheets/RAFI%20PDF's/Racon_PCB_Tactile_Switches_Cat.pdf
+$ENDCMP
+#
 $CMP SI8605AC
 D Bidirectional I2C and Digital Isolator
 F https://www.silabs.com/documents/public/data-sheets/Si860x.pdf
@@ -208,11 +228,6 @@ D 30A Contact NO Relay
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308242_T9A&DocType=DS&DocLang=English
 $ENDCMP
 #
-$CMP TEC2-4815WI
-D Isolated 2W DC-DC Converter, 18-75Vin, 24Vout, 83mA
-F https://www.tracopower.com/products/tec2wi.pdf
-$ENDCMP
-#
 $CMP V7805-500
 F https://www.cui.com/product/resource/v78-500.pdf
 $ENDCMP
@@ -227,6 +242,12 @@ $CMP X0202
 D Silicon controlled rectifier, cathode/anode/anode/gate
 K SCR thyristor
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/2d/c1/ab/c5/67/cd/4b/d4/CD00002274.pdf/files/CD00002274.pdf/jcr:content/translations/en.CD00002274.pdf
+$ENDCMP
+#
+$CMP standoff_smt
+D Round Standoff Threaded M2x0.4 Steel 0.138" (3.50mm)
+K Standoff
+F https://media.digikey.com/pdf/Data%20Sheets/Wurth%20Electronics%20PDFs/WA-SMSx_Performance_Flyer.pdf
 $ENDCMP
 #
 #End Doc Library
