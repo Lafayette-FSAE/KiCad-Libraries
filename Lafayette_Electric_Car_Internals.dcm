@@ -207,6 +207,12 @@ D Round Standoff Threaded #4-40 Steel 0.250" (6.35mm) 1/4"
 F http://www.keyelco.com/product-pdf.cfm?p=14255
 $ENDCMP
 #
+$CMP SP8K24FRATB
+D Mosfet Array 2 N-Channel (Dual) 45V 6A (Ta) 2W Surface Mount 8-SOP
+K MOS MOSFET Transistor TSV AMS CellMan Power NMOS
+F https://www.mouser.com/datasheet/2/348/sp8k24fra-1266146.pdf
+$ENDCMP
+#
 $CMP STM32F103DevBluePill
 D Blue Pill STM32 Development Kit
 $ENDCMP
