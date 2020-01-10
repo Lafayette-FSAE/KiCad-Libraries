@@ -55,6 +55,12 @@ D Nodemcu dev kit for an ESP8266 module
 F https://github.com/nodemcu/nodemcu-devkit-v1.0
 $ENDCMP
 #
+$CMP FlybackTransformer
+D Flyback Converters For For DC/DC Converters SMPS Transformer 1500Vrms Isolation  Surface Mount
+K CellMan TSV Power Balancing
+F https://www.we-online.de/katalog/datasheet/750313457.pdf
+$ENDCMP
+#
 $CMP HCNR200
 D Analog Opto-Isolator
 K OptoIsolator TSV AMS CellMan

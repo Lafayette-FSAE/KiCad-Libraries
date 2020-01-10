@@ -46,6 +46,10 @@ K Display PacMan Eink E-ink
 F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
 $ENDCMP
 #
+$CMP ESP32_TTGO_PSRAM
+D Don't pull GPIO12 high. GPIO2 connected to onboard LED. GPIO0, 5, 14, 15 output PWM during boot. GPIO3 high during boot. GPIO1 debug output during boot.
+$ENDCMP
+#
 $CMP ESP8266NodeMCUDevKit
 D Nodemcu dev kit for an ESP8266 module
 F https://github.com/nodemcu/nodemcu-devkit-v1.0
@@ -203,6 +207,12 @@ D Round Standoff Threaded #4-40 Steel 0.250" (6.35mm) 1/4"
 F http://www.keyelco.com/product-pdf.cfm?p=14255
 $ENDCMP
 #
+$CMP SP8K24FRATB
+D Mosfet Array 2 N-Channel (Dual) 45V 6A (Ta) 2W Surface Mount 8-SOP
+K MOS MOSFET Transistor TSV AMS CellMan Power NMOS
+F https://www.mouser.com/datasheet/2/348/sp8k24fra-1266146.pdf
+$ENDCMP
+#
 $CMP STM32F103DevBluePill
 D Blue Pill STM32 Development Kit
 $ENDCMP
@@ -241,6 +251,11 @@ $ENDCMP
 #
 $CMP V7805-500
 F https://www.cui.com/product/resource/v78-500.pdf
+$ENDCMP
+#
+$CMP VIFSD1-S24-S5-SIP
+D Isolated DC-DC Converter Module, 22.8-25.2Vin, 5Vout, 150mA
+F https://www.cui.com/product/resource/vifsd1-sip-series.pdf
 $ENDCMP
 #
 $CMP VOM617A
