@@ -198,6 +198,12 @@ $CMP PIC16LF1826
 F https://www.mouser.com/datasheet/2/268/41391D-277976.pdf#%5B%7B%22num%22%3A644%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C80%2C723%2Cnull%5D
 $ENDCMP
 #
+$CMP PMEG3020DEP,115
+D Diode Schottky 30V 2A Surface Mount CFP5
+K CellMan Diode Shottky Flyback Balance
+F https://assets.nexperia.com/documents/data-sheet/PMEG3020DEP.pdf
+$ENDCMP
+#
 $CMP PushButton
 D Tactile Switch SPST-NO Top Actuated Surface Mount
 F https://media.digikey.com/pdf/Data%20Sheets/RAFI%20PDF's/Racon_PCB_Tactile_Switches_Cat.pdf
