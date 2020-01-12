@@ -1732,7 +1732,10 @@ F0 "Q" 300 50 50 H V C CNN
 F1 "SP8K24FRATB" 450 -50 50 H V C CNN
 F2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" -300 500 50 H I C CNN
 F3 "" 150 100 50 H I C CNN
-F4 "SP8K24FRATBCT-ND" -700 350 50 H I C CNN "Digikey-Part"
+F4 "Digikey" 0 0 50 H I C CNN "Vendor"
+F5 "SP8K24FRATBCT-ND" 0 0 50 H I C CNN "Vendor Part"
+F6 "Rohm Semiconductor" 0 0 50 H I C CNN "Manufacturer"
+F7 "SP8K24FRATB" 0 0 50 H I C CNN "Manufactuer Part"
 DRAW
 C 15 0 111 1 1 10 N
 C 50 -70 11 1 1 0 F
