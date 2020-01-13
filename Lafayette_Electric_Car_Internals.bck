@@ -46,9 +46,19 @@ K Display PacMan Eink E-ink
 F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
 $ENDCMP
 #
+$CMP ESP32_TTGO_PSRAM
+D Don't pull GPIO12 high. GPIO2 connected to onboard LED. GPIO0, 5, 14, 15 output PWM during boot. GPIO3 high during boot. GPIO1 debug output during boot.
+$ENDCMP
+#
 $CMP ESP8266NodeMCUDevKit
 D Nodemcu dev kit for an ESP8266 module
 F https://github.com/nodemcu/nodemcu-devkit-v1.0
+$ENDCMP
+#
+$CMP FlybackTransformer
+D Flyback Converters For For DC/DC Converters SMPS Transformer 1500Vrms Isolation  Surface Mount
+K CellMan TSV Power Balancing
+F https://www.we-online.de/katalog/datasheet/750313457.pdf
 $ENDCMP
 #
 $CMP HCNR200
@@ -188,15 +198,15 @@ $CMP PIC16LF1826
 F https://www.mouser.com/datasheet/2/268/41391D-277976.pdf#%5B%7B%22num%22%3A644%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C80%2C723%2Cnull%5D
 $ENDCMP
 #
+$CMP PMEG3020DEP,115
+D Diode Schottky 30V 2A Surface Mount CFP5
+K CellMan Diode Shottky Flyback Balance
+F https://assets.nexperia.com/documents/data-sheet/PMEG3020DEP.pdf
+$ENDCMP
+#
 $CMP PushButton
 D Tactile Switch SPST-NO Top Actuated Surface Mount
 F https://media.digikey.com/pdf/Data%20Sheets/RAFI%20PDF's/Racon_PCB_Tactile_Switches_Cat.pdf
-$ENDCMP
-#
-$CMP S8B-PH-SM4-TB(LF)(SN)
-D Connector Header Surface Mount, Right Angle 8 position 0.079" (2.00mm) (Connects to E-ink display)
-K Display PacMan
-F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
 $ENDCMP
 #
 $CMP SI8605AC
@@ -207,6 +217,12 @@ $ENDCMP
 $CMP SMT-Standoff
 D Round Standoff Threaded #4-40 Steel 0.250" (6.35mm) 1/4"
 F http://www.keyelco.com/product-pdf.cfm?p=14255
+$ENDCMP
+#
+$CMP SP8K24FRATB
+D Mosfet Array 2 N-Channel (Dual) 45V 6A (Ta) 2W Surface Mount 8-SOP
+K MOS MOSFET Transistor TSV AMS CellMan Power NMOS
+F https://www.mouser.com/datasheet/2/348/sp8k24fra-1266146.pdf
 $ENDCMP
 #
 $CMP STM32F103DevBluePill
@@ -235,13 +251,27 @@ D Dip Switch x06
 F https://omronfs.omron.com/en_US/ecb/products/pdf/en-a6h.pdf
 $ENDCMP
 #
+$CMP Si8600AC
+D Bidirectional I2C Isolator
+F https://www.silabs.com/documents/public/data-sheets/Si860x.pdf
+$ENDCMP
+#
 $CMP T9AS1D12
 D 30A Contact NO Relay
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308242_T9A&DocType=DS&DocLang=English
 $ENDCMP
 #
+$CMP TEC3-2419
+F https://assets.tracopower.com/20200109160327/TEC3/documents/tec3-datasheet.pdf
+$ENDCMP
+#
 $CMP V7805-500
 F https://www.cui.com/product/resource/v78-500.pdf
+$ENDCMP
+#
+$CMP VIFSD1-S24-S5-SIP
+D Isolated DC-DC Converter Module, 22.8-25.2Vin, 5Vout, 150mA
+F https://www.cui.com/product/resource/vifsd1-sip-series.pdf
 $ENDCMP
 #
 $CMP VOM617A
