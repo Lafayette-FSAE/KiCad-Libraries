@@ -46,6 +46,11 @@ K Display PacMan Eink E-ink
 F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
 $ENDCMP
 #
+$CMP ESP32_DEVKITC
+D Don't pull GPIO12 high. GPIO2 connected to onboard LED. GPIO0, 5, 14, 15 output PWM during boot. GPIO3 high during boot. GPIO1 debug output during boot.
+F https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
+$ENDCMP
+#
 $CMP ESP32_TTGO_PSRAM
 D Don't pull GPIO12 high. GPIO2 connected to onboard LED. GPIO0, 5, 14, 15 output PWM during boot. GPIO3 high during boot. GPIO1 debug output during boot.
 $ENDCMP
@@ -53,6 +58,12 @@ $ENDCMP
 $CMP ESP8266NodeMCUDevKit
 D Nodemcu dev kit for an ESP8266 module
 F https://github.com/nodemcu/nodemcu-devkit-v1.0
+$ENDCMP
+#
+$CMP FlybackTransformer
+D Flyback Converters For For DC/DC Converters SMPS Transformer 1500Vrms Isolation  Surface Mount
+K CellMan TSV Power Balancing
+F https://www.we-online.de/katalog/datasheet/750313457.pdf
 $ENDCMP
 #
 $CMP HCNR200
@@ -190,6 +201,12 @@ $ENDCMP
 #
 $CMP PIC16LF1826
 F https://www.mouser.com/datasheet/2/268/41391D-277976.pdf#%5B%7B%22num%22%3A644%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C80%2C723%2Cnull%5D
+$ENDCMP
+#
+$CMP PMEG3020DEP,115
+D Diode Schottky 30V 2A Surface Mount CFP5
+K CellMan Diode Shottky Flyback Balance
+F https://assets.nexperia.com/documents/data-sheet/PMEG3020DEP.pdf
 $ENDCMP
 #
 $CMP PushButton
