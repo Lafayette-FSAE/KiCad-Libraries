@@ -46,6 +46,11 @@ K Display PacMan Eink E-ink
 F http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
 $ENDCMP
 #
+$CMP ESP32_DEVKITC
+D Don't pull GPIO12 high. GPIO2 connected to onboard LED. GPIO0, 5, 14, 15 output PWM during boot. GPIO3 high during boot. GPIO1 debug output during boot.
+F https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
+$ENDCMP
+#
 $CMP ESP32_TTGO_PSRAM
 D Don't pull GPIO12 high. GPIO2 connected to onboard LED. GPIO0, 5, 14, 15 output PWM during boot. GPIO3 high during boot. GPIO1 debug output during boot.
 $ENDCMP
