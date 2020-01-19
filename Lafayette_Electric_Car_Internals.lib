@@ -1735,7 +1735,7 @@ F3 "" 150 100 50 H I C CNN
 F4 "Digikey" 0 0 50 H I C CNN "Vendor"
 F5 "SP8K24FRATBCT-ND" 0 0 50 H I C CNN "Vendor Part"
 F6 "Rohm Semiconductor" 0 0 50 H I C CNN "Manufacturer"
-F7 "SP8K24FRATB" 0 0 50 H I C CNN "Manufactuer Part"
+F7 "SP8K24FRATB" 0 0 50 H I C CNN "Manufacturer Part"
 DRAW
 C 15 0 111 1 1 10 N
 C 50 -70 11 1 1 0 F
