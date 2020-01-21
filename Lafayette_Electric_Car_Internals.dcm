@@ -34,6 +34,12 @@ D Watchdog/Reset controller
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM6316_6318_6319_6320_6321_6322.pdf
 $ENDCMP
 #
+$CMP ADR510
+D Shunt Voltage Reference IC  ±0.35%  SOT-23-3
+K Regulator CellMan
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADR510.pdf
+$ENDCMP
+#
 $CMP BSS138W
 D Logic Level N-Channel MOSFET
 K TSV AMS CellMan MOSFET NMOS Transistor
