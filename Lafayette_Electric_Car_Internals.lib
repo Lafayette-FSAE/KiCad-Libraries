@@ -165,7 +165,7 @@ F2 "Lafayette_Electric_Car_Footprints:AVX" 150 200 50 H I C CNN
 F3 "" 150 200 50 H I C CNN
 F4 "Digikey" 0 0 50 H I C CNN "Vendor"
 F5 "478-7790-1-ND" 0 0 50 H I C CNN "Vendor Part"
-F6 "AVX Corporation" 0 0 50 H I C CNN "Manufacaturer"
+F6 "AVX Corporation" 0 0 50 H I C CNN "Manufacturer"
 F7 "009176002701106" 0 0 50 H I C CNN "Manufacturer Part"
 DRAW
 A 150 -50 20 901 -901 1 1 6 N 150 -30 150 -70
@@ -223,7 +223,7 @@ F3 "" -300 100 50 H I C CNN
 F4 "Digikey" 0 0 50 H I C CNN "Vendor"
 F5 "399-17175-1-ND" 0 200 50 H I C CNN "Vendor Part"
 F6 "KEMET" 0 0 50 H I C CNN "Manufacturer"
-F7 "C1206C104KARECAUTO" 0 200 50 H I C CNN "Manufactuer Part"
+F7 "C1206C104KARECAUTO" 0 200 50 H I C CNN "Manufacturer Part"
 DRAW
 P 2 1 1 20 -80 -30 80 -30 N
 P 2 1 1 20 -80 30 80 30 N
@@ -1388,7 +1388,7 @@ F3 "" 300 150 50 H I C CNN
 F4 "Digikey" 0 0 50 H I C CNN "Vendor"
 F5 "NRVTS260ESFT1GOSCT-ND" 0 300 50 H I C CNN "Vendor Part"
 F6 "ON Semiconductor" 0 0 50 H I C CNN "Manufacturer"
-F7 "NRVTS260ESFT1G" 0 0 50 H I C CNN "Manufacturer part"
+F7 "NRVTS260ESFT1G" 0 0 50 H I C CNN "Manufacturer Part"
 DRAW
 P 2 1 1 8 -50 50 -50 -50 N
 P 2 1 1 0 50 0 -50 0 N
