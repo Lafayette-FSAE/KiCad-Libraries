@@ -195,6 +195,11 @@ K Temp Temperature I2C CellMan TSV AMS
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25095A.pdf
 $ENDCMP
 #
+$CMP MEF1S2405SP3C
+D Isolated DC-DC Converter Module, 22.8-25.2Vin, 5Vout, 150mA
+F https://www.cui.com/product/resource/vifsd1-sip-series.pdf
+$ENDCMP
+#
 $CMP Molex_0705430001
 D Connector Header Through Hole 2 position 0.100" (2.54mm)
 F https://www.molex.com/pdm_docs/sd/705430001_sd.pdf
