@@ -90,6 +90,12 @@ K CellMan TSV Power Balancing
 F https://www.we-online.de/katalog/datasheet/750313457.pdf
 $ENDCMP
 #
+$CMP G5LE-1-E
+D Relay
+K Relay GLV
+F https://media.digikey.com/pdf/Data%20Sheets/Omron%20PDFs/G5LE-E_G.pdf
+$ENDCMP
+#
 $CMP HCNR200
 D Analog Opto-Isolator
 K OptoIsolator TSV AMS CellMan
