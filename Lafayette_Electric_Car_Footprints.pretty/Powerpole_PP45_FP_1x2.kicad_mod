@@ -1,4 +1,4 @@
-(module Powerpole_PP45_FP_1x2 (layer F.Cu) (tedit 5E4F1A54)
+(module Powerpole_PP45_FP_1x2 (layer F.Cu) (tedit 5E94CFF6)
   (fp_text reference REF** (at 0 -6.35) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -11,4 +11,9 @@
   (fp_line (start -7.9 2.55) (end -7.9 -5.35) (layer F.SilkS) (width 0.12))
   (pad 1 thru_hole oval (at -3.95 0) (size 6.5 2.54) (drill oval 5.23 1.27) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at 3.95 0) (size 6.5 2.54) (drill oval 5.23 1.27) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/3DModels/Anderson_2x1.step
+    (offset (xyz -4 13.5 12))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 0))
+  )
 )
